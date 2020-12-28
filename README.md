@@ -101,4 +101,14 @@ $ sudo sh -c 'echo 255 > /sys/devices/pwm-fan/target_pwm'
 $ sudo sh -c 'echo 0 > /sys/devices/pwm-fan/target_pwm'
 ```
 
+## 温度確認
 
+```bash
+$ cat /sys/devices/virtual/thermal/thermal_zone*/temp
+39000   # AO-therm
+30500   # CPU-therm
+30000   # GPU-therm
+29000   # PLL-therm
+100000  # PMIC-Die
+30500   # thermal-fan-est
+```
