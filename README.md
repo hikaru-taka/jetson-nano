@@ -1,5 +1,17 @@
 # jetson-nano
 
+## micro SDカードの作成
+
+JetPack(Jetson Nano Developer Kit)のSDイメージファイルを、[JetPack SDK](https://developer.nvidia.com/embedded/jetpack)のページからダウンロードする。
+
+### SDカードをフォーマット
+
+[SDメモリカードフォーマッター](https://www.sdcard.org/jp/downloads/formatter/)を使用してフォーマットする。
+
+### SDカードへの書き込み
+
+[Etcher](https://www.balena.io/etcher/)を使用して、ダウンロードしたSDイメージファイルをフォーマットしたSDカードに書き込む。
+
 
 ## 電源設定
 デフォルトは5V 2A 電源を使う想定となっている。
